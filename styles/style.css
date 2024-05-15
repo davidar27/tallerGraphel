@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-width: 320px;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #24282b;
+    padding: 20px;
+    border-bottom: 5px solid #158dcf;
+    align-items: baseline;
+    min-width: 320px;
+
+}
+
+header span:not(h3) {
+    color: #158dcf;
+}
+
+header h3 {
+    color: white;
+    font-size: 2em;
+}
+
+nav {
+    width: 40%;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+
+}
+
+
+.container-1 {
+    background-image: url('../assets/images/cabecera.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 360px;
+    height: 50vh;
+}
+
+.container-1 h1 {
+    color: white;
+    font-size: 4vw;
+}
+
+.container-1 p {
+    color: white;
+    width: 90%;
+    text-align: center;
+
+}
+
+
+.container-Subs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #24282b;
+    padding: 20px;
+    align-items: center;
+    min-width: 320px;
+}
+
+.container-Subs h3 {
+    color: white;
+    font-size: 1.5em;
+}
+
+.button {
+    background-color: #e8481c;
+    color: white;
+    border: none;
+}
+
+.input {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.input .button {
+    width: 100px;
+    height: 40px;
+
+}
+
+.input #email {
+    padding: 10px;
+    width: 250px;
+    margin-right: 5px;
+
+}
+
+.container-3 {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    flex-wrap: wrap;
+    min-width: 300px;
+
+
+}
+
+.container-3 div {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    width: 400px;
+
+
+}
+
+.container-3 div img {
+    width: 90px;
+    padding: 10px;
+}
+
+.container-3 div p {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+
+main {
+    display: flex;
+    padding: 2vh 10vw 2vh 10vw;
+    justify-content: space-between;
+    align-items: start;
+}
+
+#p-1 {
+    margin: 10px 0px 10px 0px;
+}
+
+#p-2 {
+    color: white;
+    background-color: #35424a;
+    padding: 20px;
+}
+
+#coffe {
+    width: 100%;
+}
+
+
+.article-servicios {
+    background-color: #e6e6e6;
+
+    margin: 5px 0px 5px 0px;
+    padding: 20px;
+}
+
+.article-servicios p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.container {
+    width: 65%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.container form {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+form .button {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+.input-contacto {
+    padding: 10px 0px 10px 0px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    color: white;
+    hyphens: auto;
+
+}
+
+aside img {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.que-hacemos {
+    padding: 30px 20px 30px 20px;
+    background-color: #35424a;
+}
+
+/* .que-hacemos p,h3{
+    margin: 20px;
+} */
+
+footer {
+    width: 100%;
+    background-color: #158dcf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+    min-width: 360px;
+}
+
+footer p {
+    color: white;
+}
+
+
+
+
+@media screen and (min-width: 1900px) {
+    main{
+        padding-top: 100px;
+        height: 65vh;
+    }
+
+    .container form {
+        height: 100%;
+    }
+    .container {
+        width: 70%;
+    }
+
+    aside{
+        width: 25%;
+    }
+}
